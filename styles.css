@@ -150,6 +150,7 @@ html {
   margin: 10px;
   padding: 10px;
 }
+
 @media (max-width: 600px) {
   .logo {
     margin: 50px;
@@ -170,4 +171,15 @@ html {
   .menu-open {
     display: block;
   }
+
+  .container {
+    display: block;
+  }
+
+  .item {
+    background: lightblue;
+    padding: 20px;
+    text-align: center;
+  }
 }
+

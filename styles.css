@@ -31,16 +31,20 @@ a {
   left: 0;
   right: 0;
   width: 100vw;
-  height: 50px;
+  height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   backdrop-filter: blur(5px);
-  background-color: rgba(39, 37, 37, 0.5);
+  background-color: rgba(54, 6, 78, 0.916);
   padding: 10px;
   transition: opacity 0.3s ease, transform 0.3s ease;
   z-index: 99;
+  font-size: larger;
+}
+.nav-menu a {
+  color: antiquewhite;
 }
 
 .nav-menu ul {
@@ -72,6 +76,9 @@ a {
   position: relative;
   top: 50px;
   padding: 20px;
+}
+.about {
+  background-color: rgb(97, 8, 122);
 }
 @media (max-width: 600px) {
   .nav-menu {

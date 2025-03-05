@@ -177,9 +177,8 @@ html {
   }
 
   .item {
-    background: lightblue;
+    background: rgb(238, 245, 247);
     padding: 20px;
     text-align: center;
   }
 }
-

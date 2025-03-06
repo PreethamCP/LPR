@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // Hamberger Menu
   var navMenu = document.querySelector(".nav-menu");
   var menuOpen = document.querySelector(".menu-open");
   var menuClose = document.querySelector(".menu-close");
@@ -15,13 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
     menuClose.style.display = "none";
   });
 
-  // File Upload Trigger
+  // Upload Image Function
+  var fileInput = document.getElementById("fileInput");
+  var uploadButton = document.querySelector(".upload");
+
   uploadButton.addEventListener("click", function () {
     fileInput.click();
-    console.log("upload");
   });
 
-  // Handle File Selection
   fileInput.addEventListener("change", function () {
     if (fileInput.files.length > 0) {
       console.log("File selected:", fileInput.files[0].name);

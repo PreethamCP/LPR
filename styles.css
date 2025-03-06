@@ -87,8 +87,10 @@ a {
   height: 200px;
   background-color: antiquewhite;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 /* about SECTION */
 .about {
   background-color: rgb(97, 8, 122);
@@ -133,5 +135,8 @@ a {
   .home {
     position: relative;
     top: 0;
+  }
+  .links a {
+    padding: 10px;
   }
 }

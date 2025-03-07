@@ -91,6 +91,11 @@ a {
   justify-content: center;
   align-items: center;
 }
+/* Home  */
+.content p {
+  font-size: large;
+  font-style: italic;
+}
 /* about SECTION */
 .about {
   background-color: rgb(97, 8, 122);
